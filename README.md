@@ -26,10 +26,18 @@ This repository documents the integration workflows and automation tasks using n
   - Tested the Schedule Trigger successfully.
 
 - **2024-12-21**:
+
   - Configured a Set Node in n8n to define `city` ("Tokyo") and `activity` ("Hiking").
   - Successfully tested the Set Node to verify data output.
   - Attempted to create a Webhook resource in Retool, but it was unavailable.
   - Created a `REST API` resource in Retool as an alternative to the Webhook.
+
+- **2024-12-22 to 24**:
+  - Successfully integrated n8n with Retool Workflow to display and process data (`city` and `activity`).
+  - Retrieved weather information from OpenWeatherAPI and sent it via email using Retool.
+  - Added functionality to generate ideal weather conditions and activity recommendations with Retool AI.
+  - Enhanced email content to include activity suggestions and sent a complete report.
+  - Attempted to connect n8n with Google Sheets for dynamic input values but encountered authentication issues.
 
 ## Detailed Logs:
 
