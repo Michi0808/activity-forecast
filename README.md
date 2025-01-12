@@ -13,14 +13,14 @@ This repository documents the integration workflows and automation tasks using n
 1. **Retool App for Weather-Based Recommendations**:
 
    - Leverages OpenWeatherMap API to fetch real-time weather data and Retool AI to generate activity suggestions based on ideal conditions.
-     ![Retool App Interface](../screenshots/retool-app.png)
+     ![Retool App Interface](/screenshots/retool-app.png)
 
 2. **n8n Workflow Automation**:
 
    - Configured Schedule Trigger to execute workflows daily at 8:00 AM automatically.
    - Integrates with Retool Workflow for seamless data processing and communication.
    - Fetches and processes records dynamically from Airtable to support flexible, real-time updates.
-     ![n8n Workflow Setup](../screenshots/n8n-airtable-get-node.png)
+     ![n8n Workflow Setup](/screenshots/n8n-airtable-get-node.png)
 
 3. **Retool Workflow Integration**:
 
@@ -28,11 +28,11 @@ This repository documents the integration workflows and automation tasks using n
    - Utilizes OpenAI for generating ideal weather conditions and activity recommendations.
    - Sends customized email reports, including weather insights and tailored activity suggestions.
      ![Retool Workflow Setup](../screenshots/retool-workflow.png)
-     ![Email Example](../screenshots/full-email-success.png)
+     ![Email Example](/screenshots/full-email-success.png)
 
 4. **Airtable Integration for Dynamic Inputs**:
    - Airtable serves as a dynamic data source for city, activity, and email address inputs.
-     ![Airtable Table Setup](../screenshots/airtable-table-setup.png)
+     ![Airtable Table Setup](/screenshots/airtable-table-setup.png)
 
 ## Update History:
 
