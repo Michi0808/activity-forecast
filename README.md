@@ -27,7 +27,7 @@ This repository documents the integration workflows and automation tasks using n
    - Connects with OpenWeatherMap API to retrieve detailed weather data (e.g., temperature, humidity, wind speed).
    - Utilizes OpenAI for generating ideal weather conditions and activity recommendations.
    - Sends customized email reports, including weather insights and tailored activity suggestions.
-     ![Retool Workflow Setup](../screenshots/retool-workflow.png)
+     ![Retool Workflow Setup](/screenshots/retool-workflow.png)
      ![Email Example](/screenshots/full-email-success.png)
 
 4. **Airtable Integration for Dynamic Inputs**:
